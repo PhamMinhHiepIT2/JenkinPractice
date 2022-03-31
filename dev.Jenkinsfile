@@ -1,4 +1,7 @@
 pipeline{
+    agent{
+        label "default"
+    }
     stages{
         stage("A"){
             steps{
